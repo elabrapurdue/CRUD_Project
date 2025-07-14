@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Catalog</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f3f3ff;
+            margin: 0;
+            padding: 20px;
+        }
+        body {
+            background: url("background.png") no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            background-color: rgba(165, 60, 28, 0.801);
+        }
+        #book-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .book-card {
+            background: rgba(253, 242, 242, 0.438);
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+            width: 200px;
+        }
+
+        .book-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .book-card:hover {
+            transform: scale(1.03);
+            transition: 0.3s;
+        }
+
+        .delete-btn, .edit-btn {
+            color: white;
+            background: #333;
+            border: none;
+            padding: 5px 10px;
+            margin-top: 5px;
+            cursor: pointer;
+        }
+
+        .delete-btn {
+            background: crimson;
+        }
+
+        .highlight {
+            background: lightgreen;
+            transition: background 0.5s ease;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Book Catalog</h1>
+
+<div>
+    <input type="text" id="book-title" placeholder="Book Title">
+    <input type="text" id="book-author" placeholder="Author">
+    <input type="text" id="book-image" placeholder="Image URL (book.png)">
+    <input type="text" id="book-synopsis" placeholder="Short Synopsis (optional)">
+    <button id="add-book">Add Book</button>
+</div>
+
+<div id="book-list"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "title": "Wonder",
+    "author": "R.J. Palacio",
+    "image": "wonder.jpg",
+    "synopsis": "A heartwarming story about a boy with facial differences navigating school life."
+  },
+  {
+    "id": 2,
+    "title": "Copper Sun",
+    "author": "Sharon Draper",
+    "image": "copper_sun.jpg",
+    "synopsis": "A gripping story of survival, resilience, and friendship during the transatlantic slave trade."
+
+  },
+  {
+    "id": 3,
+    "title": "Ciudades de Humo",
+    "author": "Joana Marcus",
+    "image": "ciudades_de_humo.jpg",
+    "synopsis": "A tale of secrets, danger, and self-discovery in a dystopian society."
+  },
+  {
+    "id": 4,
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoyevsky",
+    "image": "The-Brothers-Karamazov.jpg",
+    "synopsis": "A philosophical exploration of faith, morality, and family conflict in 19th-century Russia."
+  }
+]
